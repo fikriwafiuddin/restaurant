@@ -9,6 +9,7 @@ import { useState } from "react"
 import { useNavigate } from "react-router-dom"
 import Banner from "../components/Banner"
 import Cart from "../components/Cart"
+import Navbar from "../components/Navbar"
 
 function Home() {
   const { listMenu } = useContext(MenuContext)
@@ -50,6 +51,7 @@ function Home() {
           </div>
         </div>
       </main>
+      <Navbar />
     </>
   )
 }
