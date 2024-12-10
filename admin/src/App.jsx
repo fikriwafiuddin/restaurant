@@ -8,6 +8,7 @@ import Report from "./pages/Report"
 import Staff from "./pages/Staff"
 import Stock from "./pages/Stock"
 import Notifications from "./pages/Notifications"
+import Login from "./pages/Login"
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path="/staff" element={<Staff />} />
           <Route path="/stock" element={<Stock />} />
           <Route path="/notifications" element={<Notifications />} />
+          <Route path="/loginadmin" element={<Login />} />
         </Routes>
       </BrowserRouter>
     </>
